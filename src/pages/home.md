@@ -57,7 +57,15 @@ hero:
     contentAlignment: center
     textAlignment: center
     backgroundOpacity: 80
-content_blocks: []
+content_blocks:
+  - _bookshop_name: sections/servicesSection
+    content:
+      sectionId:
+      heading:
+      showNote: true
+    styles:
+      color_group: primary
+      cardStyle: defaultCard
 _inputs:
   removeFromNavigation:
     hidden: true
